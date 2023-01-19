@@ -146,6 +146,11 @@ android {
 
         }
     }
+
+    productFlavors {
+        internal {}
+        production {}
+    }
 }
 
 dependencies {
